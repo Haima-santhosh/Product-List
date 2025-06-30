@@ -82,7 +82,7 @@ const ProductDisplay = () => {
 
                 <button
                   className="btn btn-outline-primary w-100"
-                onClick={() => console.log(`Added to cart: ${product.name}`)}
+                onClick={() => console.log(`${product.name} Added to cart `)}
 
                 >
                   Add to Cart
